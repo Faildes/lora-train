@@ -1825,6 +1825,12 @@ def add_sd_models_arguments(parser: argparse.ArgumentParser):
         default=None,
         help="directory for caching Tokenizer (for offline training) / Tokenizerをキャッシュするディレクトリ（ネット接続なしでの学習のため）",
     )
+    parser.add_argument(
+        "--custom_tag",
+        type=str,
+        default=None,
+        help="tag to activate the network. / データを有効化するタグ",
+    )
 
 
 def add_optimizer_arguments(parser: argparse.ArgumentParser):
