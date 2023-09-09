@@ -338,6 +338,7 @@ def train(args):
         "ss_session_id": session_id,  # random integer indicating which group of epochs the model came from
         "ss_training_started_at": training_started_at,  # unix timestamp
         "ss_output_name": args.output_name,
+        "ss_custom_tag": args.custom_tag,
         "ss_learning_rate": args.learning_rate,
         "ss_text_encoder_lr": args.text_encoder_lr,
         "ss_unet_lr": args.unet_lr,
