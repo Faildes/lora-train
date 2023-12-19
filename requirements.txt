@@ -20,7 +20,7 @@ timm==0.6.12
 fairscale==0.4.13
 # for WD14 captioning
 # tensorflow<2.11
-tensorflow==2.12.0
+# tensorflow==2.12.0
 huggingface-hub==0.13.4
 # for kohya trainer colab
 gallery-dl==1.25.1
